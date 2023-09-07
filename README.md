@@ -1,11 +1,3 @@
-# HELP ME IMPROVE IT
+# 106BOMBYX_CPP
 
-<span style="animation: blinker 1s linear infinite;">**HELP ME TO IMPROVE IT**</span>
-
-<style>
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-</style>
+![HELP ME](src/help.png)
