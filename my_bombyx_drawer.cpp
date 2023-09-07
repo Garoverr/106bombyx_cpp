@@ -57,7 +57,7 @@ int tab_creator(sf::RenderWindow& window, const std::vector<sf::Vector2f>& point
 void y_axis_drawer(sf::RenderWindow& window, float maxY)
 {
     sf::Font font;
-    if (!font.loadFromFile("arial.ttf")) {
+    if (!font.loadFromFile("src/arial.ttf")) {
         std::cerr << "Erreur lors du chargement de la police." << std::endl;
         return;
     }
@@ -82,7 +82,7 @@ void y_axis_drawer(sf::RenderWindow& window, float maxY)
 void x_axis_drawer(sf::RenderWindow& window)
 {
     sf::Font font;
-    if (!font.loadFromFile("arial.ttf")) {
+    if (!font.loadFromFile("src/arial.ttf")) {
         std::cerr << "Erreur lors du chargement de la police." << std::endl;
         return;
     }
